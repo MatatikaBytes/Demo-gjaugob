@@ -35,6 +35,9 @@ plugins:
   - name: files-dbt
     variant: matatika
     pip_url: git+https://github.com/Matatika/files-dbt@v1.2
+  - name: analyze-auth0
+    variant: matatika
+    pip_url: git+https://github.com/Matatika/analyze-auth0@v0.5.0
   utilities:
   - name: matatika
     variant: matatika
