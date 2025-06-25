@@ -10,10 +10,22 @@ plugins:
   - name: tap-govuk-weekly-road-fuel-prices
     variant: matatika
     pip_url: git+https://github.com/Matatika/tap-spreadsheets-anywhere@v0.2.0
+  - name: tap-hubspot
+    variant: spacecowboy
+    pip_url: git+https://github.com/spacecowboy/tap-hubspot.git
+  - name: tap-auth0
+    variant: matatika
+    pip_url: git+https://github.com/Matatika/tap-auth0@v0.6.0
+  - name: tap-github
+    variant: matatika
+    pip_url: git+https://github.com/Matatika/tap-github.git
   loaders:
   - name: target-postgres
     variant: matatika
     pip_url: git+https://github.com/Matatika/pipelinewise-target-postgres@v0.2.0
+  - name: target-snowflake
+    variant: matatika
+    pip_url: git+https://github.com/Matatika/target-snowflake--meltanolabs.git@v0.16.3-1
   transformers:
   - name: dbt
     variant: dbt-labs
